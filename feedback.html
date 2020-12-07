@@ -32,7 +32,7 @@
           <li><a href="index.html#staff">Staff</a></li>
           <li><a href="index.html#testimonials">Testimonials</a></li>
           <li class="active"><a href="feedback.html">Talk to Us</a></li>
-        </ul>        
+        </ul>
       </div><!-- collapse navbar-collapse -->
     </div><!-- container -->
   </nav>
@@ -45,7 +45,7 @@
       <div class="row">
         <div class="col-md-6 col-md-offset-3 form-container">
           <p>Please provide your feedback below:</p>
-            <form role="form" method="post" id="feedback_form">
+            <form role="form" method="post" id="feedback_form" action="https://d9jcfxy2d9.execute-api.us-west-1.amazonaws.com/Testing/feedback">
               <div class="row">
                 <div class="col-sm-12 form-group">
                   <label>How do you rate your overall experience?</label>
@@ -65,14 +65,14 @@
                   </p>
                 </div>
               </div> <!-- Experience row -->
-              
+
               <div class="row">
                 <div class="col-sm-12 form-group">
                   <label for="comments">Comments:</label>
                   <textarea class="form-control" type="textarea" name="comments" id="comments" placeholder="Your Comments" maxlength="6000" rows="7"></textarea>
                 </div>
               </div> <!-- Comments row -->
-              
+
               <div class="row">
                 <div class="col-sm-6 form-group">
                   <label for="name">Your Name:</label>
@@ -90,17 +90,17 @@
                 </div>
               </div> <!-- Submit row -->
             </form> <!-- Feedback form -->
-            
+
             <div id="success_message" style="width:100%; height:100%; display:none; ">
               <h3>Posted your feedback successfully!</h3>
             </div> <!-- Success -->
-            
+
             <div id="error_message" style="width:100%; height:100%; display:none; ">
               <h3>Error</h3>
               Sorry there was an error sending your form.
             </div> <!-- Error -->
           </div> <!-- Feedback form -->
-          
+
       </div><!-- outer row -->
     </div><!-- container -->
   </div><!-- staff page -->
@@ -111,7 +111,7 @@
     <div class="row">
       <div class="col-sm-6">
         <p>Call us toll-free at <span class="phone">888-555-1212</span></p>
-        <p>All contents &copy; 2014 <a href="http://lynda.com">Lynda.com</a>. All rights reserved.</p>    
+        <p>All contents &copy; 2014 <a href="http://lynda.com">Lynda.com</a>. All rights reserved.</p>
       </div><!-- col-sm-6 -->
       <div class="col-sm-6">
         <nav class="navbar navbar-default" role="navigation">
@@ -119,7 +119,7 @@
             <li><a href="#">Terms of use</a></li>
             <li><a href="#">Privacy policy</a></li>
           </ul>
-        </nav>        
+        </nav>
       </div><!-- col-sm-6 -->
     </div><!-- row -->
   </div><!-- content container -->
