@@ -16,7 +16,7 @@
     $("#feedback_form").submit(function(e) {
       e.preventDefault();
 
-      $form = @(this);
+      $form = $(this);
 
       $.ajax({
         type: "POST",
