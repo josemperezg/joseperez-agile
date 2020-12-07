@@ -13,8 +13,8 @@
 
 <script>
   $(function() {
-    $("#feedback_form").submit(function(e){
-      e.proventDefaut();
+    $("#feedback_form").submit(function(e) {
+      e.preventDefault();
 
       $form = @(this);
 
