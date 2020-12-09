@@ -52,7 +52,7 @@ header .navbar-default .navbar-nav .active a:hover {
 /**  Navbar Brand **/
 
 header .navbar-brand {
-  background: url(../images/wisdompetlogo.svg);
+  /** background: url(../images/wisdompetlogo.svg); **/
   background-repeat: no-repeat;
   background-position: 15px 0;
   height: auto;
@@ -200,7 +200,7 @@ header .inbody .navbar-brand span.subhead {
   margin-bottom: 10px;
 }
 
-@media only screen 
+@media only screen
 and (min-width: 450px)
 and (max-width: 768px) {
   .service p {
@@ -364,4 +364,3 @@ footer .navbar-nav>li a {
   text-decoration: underline;
   color: #EEC856 !important;
 }
-
