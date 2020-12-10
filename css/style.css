@@ -32,19 +32,19 @@ header .navbar-default .navbar-nav a {
 }
 
 header .navbar-default .navbar-nav a:hover {
-  color: #EEC856;
+  color: #999A90;  //** Color del Menu **//
 }
 
 header .navbar-default .navbar-nav .active a {
   font-weight: 700;
-  color: #EEC856;
+  color: #999A90;
   background: transparent;
-  border-bottom: 4px solid #EEC856;
+  border-bottom: 4px solid #999A90;
   text-shadow: none;
 }
 
 header .navbar-default .navbar-nav .active a:hover {
-  color: #E15D5F;
+  color: #BA9C6F;
   background: transparent;
   text-shadow: none;
 }
@@ -75,7 +75,7 @@ header .navbar-brand span.subhead {
 
 /**  Navbar Toggle **/
 header .navbar-toggle {
-  background-color: #279182;
+  background-color: #BA9C6F;
 }
 
 header .navbar-default .navbar-toggle .icon-bar {
@@ -92,7 +92,7 @@ and (max-width: 768px) {
 /**  nav inbody **/
 
 header .inbody {
-  background: rgba(104,73,49,.9);
+  background: rgba(100,100,100,.9);
 }
 
 header .navbar.inbody {
@@ -177,9 +177,10 @@ header .inbody .navbar-brand span.subhead {
 
 /**  Page -- Mission **/
 #mission {
-  background-color: #E4D29D;
-  background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
-  border-top: 20px solid rgba(238, 200, 86, .5);
+  background-color: #999A90;
+  background-image: linear-gradient(to bottom, #FCF6E7, #BA9C6F);
+  /** border-top: 20px solid rgba(238, 200, 86, .5);**/
+  border-top: 20px solid #BA9C6F;
 }
 
 /**  Page -- Services **/
@@ -198,6 +199,7 @@ header .inbody .navbar-brand span.subhead {
 
 #services h3 {
   margin-bottom: 10px;
+
 }
 
 @media only screen
@@ -211,8 +213,8 @@ and (max-width: 768px) {
 /**  Page -- Staff **/
 
 #staff, #feedback {
-  background-color: #E4D29D;
-  background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);
+  background-color: #999A90;
+  background-image: linear-gradient(to bottom, #FCF6E7, #BA9C6F);
 }
 
 .doctor {
@@ -228,6 +230,14 @@ and (max-width: 768px) {
 
 .doctor p {
   font-size: .8em;
+}
+
+.doctor a {
+color: #999A90;
+}
+
+.doctor a:hover {
+  color: #BA9C6F !important;
 }
 
 .doctor img {
@@ -263,21 +273,22 @@ and (max-width: 768px) {
 }
 
 #testimonials blockquote .quote:hover {
-  background-color: rgba(239,240,196,.9);
+  /**background-color: rgba(239,240,196,.9);**/
+  background-color: #FCF6E7;
 }
 
 #testimonials #janeh {
-  background: url(../images/testimonial-janeh.jpg) no-repeat center center;
+  background: url(../images/T1.jpg) no-repeat center center;
   background-size: cover;
 }
 
 #testimonials #johnb {
-  background: url(../images/testimonial-johnb.jpg) no-repeat center center;
+  background: url(../images/T2.jpg) no-repeat center center;
   background-size: cover;
 }
 
 #testimonials #mcphersons {
-  background: url(../images/testimonial-mcphersons.jpg) no-repeat center center;
+  background: url(../images/T3.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -327,14 +338,14 @@ and (max-width: 768px) {
 /**  Footer **/
 
 footer {
-  background: #586D74;
+  background: #202020;
   color: white;
   font-size: .8em;
   padding: 20px 0 40px 0;
 }
 
 footer a {
-  color: #E0E6AE;
+  color: #FCF6E7;
 }
 
 footer a:hover {
@@ -344,7 +355,7 @@ footer a:hover {
 footer .phone {
   font-size: 1.4em;
   font-weight: 700;
-  color: #E0E6AE;
+  color: #FCF6E7;
 }
 
 footer .navbar {
